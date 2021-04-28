@@ -6,7 +6,6 @@
     <div>
       <router-view />
     </div>
-
     <HelloWorld></HelloWorld>
   </div>
 </template>
