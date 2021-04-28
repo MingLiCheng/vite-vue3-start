@@ -1,6 +1,8 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <router-link to="/">home</router-link>
+  <br>
+  <router-link to="vuex">Vuex</router-link>
+  <router-view></router-view>
 </template>
 
 <script lang="ts">
