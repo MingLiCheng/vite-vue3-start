@@ -1,8 +1,14 @@
 <template>
-  <router-link to="/">home</router-link>
-  <br>
-  <router-link to="vuex">Vuex</router-link>
-  <router-view></router-view>
+  <div>
+    <router-link to="/">home</router-link>
+    <br />
+    <router-link to="vuex">Vuex</router-link>
+    <div>
+      <router-view />
+    </div>
+
+    <HelloWorld></HelloWorld>
+  </div>
 </template>
 
 <script lang="ts">
