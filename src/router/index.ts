@@ -10,6 +10,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/vuex',
     name: 'VuexPage',
     component: () => import('@/views/vuex.vue')
+  },
+  {
+    path: '/test',
+    name: 'TestPage',
+    component: () => import('@/views/test.vue')
   }
 ]
 const router = createRouter({
